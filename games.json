@@ -1,0 +1,53 @@
+{
+    "cs2": {
+      "últimos_jogos": [
+        {"data": "09/04/2025", "resultado": "Derrota para The Mongolz por 0–2"},
+        {"data": "08/04/2025", "resultado": "Derrota para Virtus.pro por 0–2"},
+        {"data": "07/04/2025", "resultado": "Derrota para Complexity Gaming por 1–2"},
+        {"data": "06/04/2025", "resultado": "Vitória sobre Apogee Esports por 2–0"},
+        {"data": "22/03/2025", "resultado": "Derrota para M80 por 1–2"}
+      ],
+      "sem_partidas_agendadas": true
+    },
+    "lol": {
+      "últimos_jogos": [
+        {"data": "27/04/2025", "resultado": "Vitória sobre LOUD por 2–1"},
+        {"data": "21/04/2025", "resultado": "Derrota para LOUD por 0–1"},
+        {"data": "20/04/2025", "resultado": "Vitória sobre Vivo Keyd Stars por 1–0"},
+        {"data": "19/04/2025", "resultado": "Vitória sobre RED Canids por 1–0"},
+        {"data": "13/04/2025", "resultado": "Vitória sobre Fluxo W7M por 1–0"}
+      ],
+      "próximo_jogo": "11/05/2025 às 11:00: Contra Fluxo W7M (Bo3)"
+    },
+    "valorant": {
+      "últimos_jogos": [
+        {"data": "12/04/2025", "resultado": "Derrota para Cloud9 por 0–2"},
+        {"data": "06/04/2025", "resultado": "Derrota para Leviatán por 0–2"},
+        {"data": "28/03/2025", "resultado": "Derrota para NRG por 1–2"},
+        {"data": "22/03/2025", "resultado": "Derrota para G2 Esports por 0–2"},
+        {"data": "23/01/2025", "resultado": "Derrota para Evil Geniuses por 0–2"}
+      ],
+      "sem_partidas_agendadas": true
+    },
+    "rocket": {
+      "últimos_jogos": [
+        {"data": "30/03/2025", "resultado": "Vitória sobre Team Vitality por 4–3"},
+        {"data": "29/03/2025", "resultado": "Vitória sobre Twisted Minds por 4–1"},
+        {"data": "28/03/2025", "resultado": "Vitória sobre Dignitas por 3–1"},
+        {"data": "28/03/2025", "resultado": "Vitória sobre Complexity Gaming por 3–2"},
+        {"data": "27/03/2025", "resultado": "Derrota para Team Vitality por 0–3"}
+      ],
+      "sem_partidas_agendadas": true
+    },
+    "kings": {
+      "últimos_jogos": [
+        {"data": "29/04/2025", "resultado": "Vitória sobre PIO FC por 3–2"},
+        {"data": "23/04/2025", "resultado": "Derrota para 1K FC por 1–2"},
+        {"data": "16/04/2025", "resultado": "Vitória sobre Kings United por 4–1"},
+        {"data": "09/04/2025", "resultado": "Vitória sobre Real Madrid FC por 2–1"},
+        {"data": "02/04/2025", "resultado": "Empate contra Xavi FC por 1–1"}
+      ],
+      "sem_partidas_agendadas": true
+    }
+  }
+   

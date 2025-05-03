@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FURIA</title>
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/variables.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/menu.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/font-awesome.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-container">
+            <a href="/">
+                <h1 class="logo">FURIA</h1>
+            </a>
+            <nav>
+                <input type="checkbox" id="menu-hamburguer" />
+                <label for="menu-hamburguer">
+                    <div class="menu">
+                        <span class="hamburguer"></span>
+                    </div>
+                </label>
+                <ul>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#" onclick="toggleChatbot()">Chat</a></li>
+                    <li><a href="https://www.youtube.com/@FURIAggCS"
+                        target="_blank">Youtube</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="hero">
+        <h2>Vivendo o CS com a FURIA!</h2>
+    </section>
+    <section class="about" id="about">
+        <div class="item">
+            <h3>FURIA em Outros Jogos</h3>
+            <p>A FURIA não é só CS:GO. Conheça nosso time em jogos como VALORANT, League of Legends e mais</p>
+            <a href="https://escharts.com/pt/organizations/furia-esports" target="_blank" class="btn-know-more">Saiba mais</a>
+        </div>
+        <div class="image right"></div>
+        <div class="image left"></div>
+        <div class="item">
+            <h3>Funcionalidades</h3>
+            <p>Interaja com o bot, receba notícias e resultados dos jogos do time FURIA diretamente no seu chat.</p>
+            <a href="#" onclick="event.preventDefault(), toggleChatbot()" class="btn-know-more">Testar ChatBot</a>
+        </div>
+        <div class="item-clothing">
+            <h3>Vista a Camisa da FURIA – Confira a Loja Oficial!</h3>
+            <p>Mostre sua torcida com orgulho e estilo! A linha oficial da FURIA te espera com camisetas, moletons e muito mais.</p>
+            <a href="https://www.furia.gg/" class="btn-know-more" target="_blank">Ir para a loja!</a>
+        </div>
+    </section>
+    
+
+    <div id="chatbot-toggle" onclick="toggleChatbot()">💬</div>
+
+
+    <div id="chatbot-container">
+        <div id="chatbot-header">
+            <span>ChatBot FURIA</span>
+            <button onclick="toggleChatbot()">✖</button>
+        </div>
+        <div id="messages"></div>
+        <input type="text" id="user-input" placeholder="Digite sua mensagem..." />
+        <button onclick="sendMessage()">Enviar</button>
+    </div>
+    <footer class="footer" id="contact">
+        <h4>FURIA Esports</h4>
+        <nav>
+            <ul>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="https://draft5.gg/equipe/330-FURIA/proximas-partidas" target="_blank">Jogos</a></li>
+                <li><a href="https://draft5.gg/equipe/330-FURIA" target="_blank">Equipe</a></li>
+            </ul>
+        </nav>
+        <div class="social">
+            <a href="https://www.facebook.com/furiagg/?locale=pt_BR" target="_blank">
+                <i class="fab fa-facebook-square"></i>
+            </a>
+            <a href="https://www.instagram.com/furiagg/" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://x.com/FURIA?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">
+                <i class="fab fa-twitter-square"></i>
+            </a>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
