@@ -100,7 +100,7 @@ function gamesKings(data) {
 }
 
 async function fetchGamesData() {
-  const response = await fetch('/games.json');
+  const response = await fetch('games.json');
   const data = await response.json();
   return data;
 }
